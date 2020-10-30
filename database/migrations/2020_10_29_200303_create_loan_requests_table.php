@@ -21,11 +21,11 @@ class CreateLoanRequestsTable extends Migration
             $table->unsignedBigInteger('status_changed_by');
             $table->foreign('status_changed_by')->references('id')->on('users')->onDelete('cascade');
             $table->string('reason')->nullable();
-            $table->timestamps('status_change_date')->nullable();
+            $table->timestamp('status_change_date')->nullable();
             $table->timestamps();
         });
     }
-    
+
     /**
      * Reverse the migrations.
      *

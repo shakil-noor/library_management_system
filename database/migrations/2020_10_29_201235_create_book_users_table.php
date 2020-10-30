@@ -24,8 +24,8 @@ class CreateBookUsersTable extends Migration
             $table->foreign('loan_request_id')->references('id')->on('loan_requests')->onDelete('cascade');
             $table->unsignedBigInteger('return_request_id');
             $table->foreign('return_request_id')->references('id')->on('return_requests')->onDelete('cascade');
-            $table->timestamps('lend_at')->nullable();
-            $table->timestamps('lend_expire_at')->nullable();
+            $table->timestamp('lend_at')->nullable();
+            $table->timestamp('lend_expire_at')->nullable();
             $table->timestamps();
         });
     }

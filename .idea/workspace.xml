@@ -20,17 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="342caf71-dd3e-4d42-841f-ac3b75f191f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Author.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/BookCopy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BookCopy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/LoanRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/LoanRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Publication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ReturnRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ReturnRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_29_194804_create_publications_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_29_194804_create_publications_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_29_194931_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_29_194931_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_29_195025_create_book_copies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_29_195025_create_book_copies_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_29_200303_create_loan_requests_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_29_200303_create_loan_requests_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_29_200840_create_return_requests_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_29_200840_create_return_requests_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_29_201235_create_book_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_29_201235_create_book_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +191,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604028780074</updated>
-      <workItem from="1604028787818" duration="8036000" />
+      <workItem from="1604028787818" duration="9748000" />
     </task>
     <servers />
   </component>
