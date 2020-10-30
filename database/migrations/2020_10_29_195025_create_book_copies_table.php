@@ -16,7 +16,7 @@ class CreateBookCopiesTable extends Migration
         Schema::create('book_copies', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('uuid')->unique();
-            $table->string('edition');
+            $table->string('edition',20);
             $table->integer('book_id');
             $table->string('condition');
             $table->string('description')->nullable();

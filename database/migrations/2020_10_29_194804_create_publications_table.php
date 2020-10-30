@@ -15,7 +15,7 @@ class CreatePublicationsTable extends Migration
     {
         Schema::create('publications', function (Blueprint $table) {
             $table->bitIncrements('id');
-            $table->string('name');
+            $table->string('name',100);
             $table->string('logo')->nullable();
             $table->text('description')->nullable();
             $table->timestamps();
